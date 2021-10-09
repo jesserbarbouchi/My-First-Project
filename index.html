@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="./maiin.js"></script>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+   integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+   
+   <link rel="stylesheet" href="css.css">
+   <title>Document</title>
+</head>
+<body>
+    <script>
+    $(document).ready(function(){
+        $("#signinbutton").click(function(){
+          $("#divbar").hide();
+        });
+    });
+    </script>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#test1">Fps</a></li>
+        <li><a href="#test2">Survival</a></li>
+        <li><a href="#test3">RPG</a></li>
+        <li><a href="#test4">Fantasy</a></li>
+        <li><a href="#test5">Adventure</a></li>
+        <input id="searchbar" type="text" placeholder="Search..">
+      </ul>
+  <div id="divbar">
+<p id="signup">Sign up</p>
+<input id="textzone1" placeholder="    Write something ..." type="text">
+<p id="username">Username</p>
+<input id="textzone2" placeholder="    Write something ..." type="text">
+<p id="email">Email</p>
+<input id="textzone3" placeholder="    Write something ..." type="text">
+<p id="password">Password</p>
+<button id="signinbutton">Sign in</button>
+
+
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

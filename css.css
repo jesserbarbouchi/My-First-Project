@@ -1,0 +1,122 @@
+#signup{
+    position: relative;
+    font-size:35px;
+    font-style: normal;
+    font-weight: 700;
+    bottom: 35px;
+}
+#divbar{
+    position: relative;
+    border: none;
+    border-radius:10px;
+    margin: 90px;
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    left: 410px;
+    top: 50px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+#textzone1{
+        position: relative;
+        width: 300px;
+        height: 35px;
+        left: 130px;
+        border-radius: 50px;
+        
+}
+#username{
+    position: relative;
+    bottom: 63px;
+    font-size: 25px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+}
+#textzone2{
+        position: relative;
+        width: 300px;
+        height: 35px;
+        left: 130px;
+        border-radius: 50px;
+        bottom: 50px;
+}
+#email{
+    position: relative;
+    bottom: 110px;
+    left: 2px;
+    font-size: 25px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+}
+#textzone3{
+        position: relative;
+        width: 300px;
+        height: 35px;
+        left: 130px;
+        border-radius: 50px;
+        bottom: 100px;
+}
+#password{
+    position: relative;
+    bottom: 160px;
+    left: 2px;
+    font-size: 25px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+}
+#signinbutton{
+        position: relative;
+        left: 280px;
+        bottom: 130px;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        background-color:dimgray;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        font-weight:800;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp5037746.jpg");
+    background-size: 100rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:darkgrey;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:dimgrey;
+  }
+  
+  .active {
+    background-color:rgba(0, 0, 0, 0.6);
+  }
+  #searchbar{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
