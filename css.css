@@ -3,18 +3,27 @@
     font-size:35px;
     font-style: normal;
     font-weight: 700;
-    bottom: 35px;
+    bottom: 20px;
+}
+#login{
+  position: relative;
+  font-size:35px;
+  font-style: normal;
+  font-weight: 700;
+  bottom: 20px;
+  
 }
 #divbar{
     position: relative;
     border: none;
     border-radius:10px;
     margin: 90px;
+    margin-bottom: 0px;
     width: 450px;
-    height: 400px;
+  
     padding: 20px;
     left: 410px;
-    top: 50px;
+    top: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     background-color: whitesmoke;
     opacity: 80%;
@@ -23,56 +32,104 @@
         position: relative;
         width: 300px;
         height: 35px;
-        left: 130px;
+        
         border-radius: 50px;
         
 }
 #username{
     position: relative;
-    bottom: 63px;
     font-size: 25px;
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     font-weight:600;
+    
 }
 #textzone2{
         position: relative;
         width: 300px;
         height: 35px;
-        left: 130px;
+
         border-radius: 50px;
-        bottom: 50px;
+
 }
 #email{
     position: relative;
-    bottom: 110px;
     left: 2px;
     font-size: 25px;
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     font-weight:600;
+    
+}
+#passerror{
+  font-size: 15px;
+  color :rgb(148, 33, 33);
+  width: 500px;
 }
 #textzone3{
-        position: relative;
-        width: 300px;
-        height: 35px;
-        left: 130px;
-        border-radius: 50px;
-        bottom: 100px;
+  position: relative;
+  width: 300px;
+  height: 35px;
+
+  border-radius: 50px;
+
+}
+#textzone4{
+  position: relative;
+  width: 300px;
+  height: 35px;
+
+  border-radius: 50px;
+
+}
+box{
+  display: flex;
+
+  flex-wrap:wrap; /* TARJA3 LEL STAR KI TETEMLA LCRAN */
+  flex-direction:row; /*TAFFICHI LCONTENU LKOL HORIZONTAL INSTEAD OF VERTICAL */
+  justify-content: space-around;
+}
+
+input{
+  outline:none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-group {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 35px;
 }
 #password{
     position: relative;
-    bottom: 160px;
+
     left: 2px;
     font-size: 25px;
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     font-weight:600;
 }
+#confirm{
+  position: relative;
+
+  left: 2px;
+  font-size: 25px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:600;
+}
+.aa{
+  
+  position: relative;left: 280px;
+  
+}
 #signinbutton{
         position: relative;
-        left: 280px;
-        bottom: 130px;
+       
+        
         width: 150px;
         height: 60px;
         border-radius: 10px;
@@ -81,10 +138,7 @@
         font-size: large;
         font-weight:800;
 }
-body{
-    background-image: url("https://wallpapercave.com/wp/wp5037746.jpg");
-    background-size: 100rem;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -120,3 +174,101 @@ ul {
     border: none;
     font-size: 17px;
   }
+  
+
+  
+  #searchbar{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+body{
+  background-attachment: fixed;
+  background-image: url("https://wallpapercave.com/wp/wp5037746.jpg");
+  background-size: cover;
+    
+
+}
+d{
+  position:relative;
+  bottom:20px;
+  left:20px;
+  font-weight: 600;
+  color:rgb(66, 35, 87);
+  font-size: 19px;
+}
+#csgo{
+    position: relative;
+    border: none;
+    border-radius:10px;
+    margin: 45px;
+    width: 520px;
+    height: 200px;
+    padding: 20px;
+    top: 100px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    opacity: 80%;
+}
+#csgoimg{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    margin-right: 50px;
+    color:rgba(0,0,0,0.5);
+    top: 20px;
+}
+.csgotitle{
+    position: relative;
+    bottom:130px;
+    font-style: italic;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.description{
+    position: relative;
+    bottom: 30px;
+    left:10px;
+    font-size:small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:600;
+}
+.download{
+    position: relative;
+    left: 380px;
+    bottom: 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:600;
+}
+#hog{
+  color:rgb(82, 70, 110);
+  text-align: center;
+  font-size:  40px;
+  text-shadow: 0  0  2px rgb(148, 33, 33);
+}
+.glow {
+  font-family: cursive;
+  font-size: 60px;
+  color: rgb(82, 70, 110);
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px rgb(180, 63, 63), 0 0 50px rgb(180, 63, 63), 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(148, 33, 33), 0 0 40px rgb(148, 33, 33), 0 0 50px rgb(148, 33, 33), 0 0 60px rgb(148, 33, 33), 0 0 70px rgb(148, 33, 33), 0 0 80px #rgb(148, 33, 33);
+  }
+}
